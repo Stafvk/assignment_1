@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon-header.png" type="image/x-icon">
+    <title>Cookery</title>
+</head>
+<body>
+    <header>
+        <h2>Cookery-Good food Matters</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Recipe Gallery</a></li>
+                <li><a href="#ingridents">Buy Ingredients</a></li>
+                <li><a href="#contact">Submit your Recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+     <div class="image-text">
+        <img src="background.jpg"/>
+        <div class="text-boxes">
+        <h2>Discover the art of cooking with this Creative Cookbook of Recipes. Explore delicious recipes crafted with passion and creativity.</h2>
+        <h3>You can have a chance to have your recipe sent to us and put up on this website. Scroll to the bottom to submit your work to us!</h3>
+    </div>
+    </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Recipe Gallery</h2>
+        <div class="recipe-grid">
+            <!-- Recipe Images -->
+            <a href="recipe1.html"><img src="Chilli-Paneer-4.jpg" alt="Recipe 1"></a>
+            <a href="#"><img src="Slow-Cooker-Texas-Chili_HighRes-011-scaled.jpg" alt="Recipe 2"></a>
+            <a href="#"><img src="Easy-Cauliflower-Gnocchi.jpg" alt="Recipe 3"></a>
+            <a href="#"><img src="sweet-potato-peanut-stew.jpg" alt="Recipe 4"></a>
+            <a href="#"><img src="Slow-Cooker-Texas-Chili_HighRes-011-scaled.jpg" alt="Recipe 5"></a>
+            <a href="#"><img src="Tofu-Lettuce-Wraps.jpg" alt="Recipe 6"></a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Your chance to get featured!</h2>
+        <p>Drop in your favorite resume and we will share it!</p>
+  
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message" style="text-decoration: underline;">Receipe</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </section>
+    
+    <script>
+        function submitForm() {
+            // Add your JavaScript code to handle form submission (e.g., validation)
+            alert("Form submitted (JavaScript handling)!");
+        }
+    </script>
+    
+    <footer>
+        <p>&copy; 2024 Creative Cookbook. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
